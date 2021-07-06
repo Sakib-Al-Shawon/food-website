@@ -36,23 +36,30 @@
  }
  body{
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
+    margin: 0px;
  }
  h1{
      font-size: 70px;
+ p{
+     font-size: large;
+     padding-buttom:50px;
+ }    
  }
  .orange-color{
      color: orange;
  }
  section{
      display: flex;
+     margin-bottom: 70px;
  }
  .half-width{
      width: 50%;
-     padding-left: 5%;
+     float: left;
+     margin-left: 5%;
  }
  .half-width img{
-     width: 80%;
+     width: 90%;
+     height: 90%;
  }
  .link-button{
      text-decoration: none;
@@ -62,4 +69,94 @@
      color: white;
      font-weight: 700;
  }
- 
+ .about-me{
+     background-image: url(image/7.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ .h-width{
+     width:50%;
+     float: left;
+     margin-left: 5%;
+ }
+ .h-width img{
+     width: 80%;
+     height: 72%;
+ }
+ .text{
+     margin-top: 30%;
+ }
+  
+ .my-recepie{
+    text-align: center;
+}
+.recepie{
+    display: flex;
+}
+
+.one-third{
+    width: 25%;
+    height: 430px;
+    border-radius: 20px;
+    float: left;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;
+    margin-left: 80px;
+    background-color: white;
+}
+.one-third img{
+    width: 100%;
+}
+
+.follower-section{
+    box-shadow: 0px 4px 8px gray;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 30px;
+    padding-left: 10%;
+    border-radius: 20px;
+}
+.follower{
+    width: 33%;
+    float: left;
+
+}
+
+
+#review-title{
+    text-align: center;
+}
+.review{
+    height: 300px;
+    margin-bottom: 50px;
+}
+.client-review{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px black;
+    height: 250px;
+    border-radius: 20px;
+    text-align: justify;
+    
+}
+.client-review img{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+footer{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+footer p{
+    color: white;
+}
